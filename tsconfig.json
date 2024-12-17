@@ -2,7 +2,7 @@
     "compilerOptions": {
         "target": "ES6",
         "outDir": "./dist",
-        "strict": true,
+        "strict": true
     },
     "include": ["./src"]
 }
