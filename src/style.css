@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(182, 181, 181);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+}
+
+.mid {
+    display: flex;
+    height: 100vh;
+    width: 100wh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#diceChart {
+    color: black;
+}
+
+#results {
+    display: grid;
+    grid-template-columns: repeat(6, 18.1%);
+    grid-template-rows: repeat(1, 1fr);
+    width: 90%;
+    margin-left: 10rem;
+    overflow: hidden;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 48%;
+    border-radius: 99rem;
+    width: 10rem;
+    height: 3rem;
+    cursor: pointer;
+}
